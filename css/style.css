@@ -1,0 +1,875 @@
+/*Common Start*/
+:root{
+	--lato: 'Lato', sans-serif;
+	--rob: 'Roboto', sans-serif;
+	--b: #333333;
+	--w: #ffffff;
+	--g: #8e8e8e;
+}
+body{
+	font-family: var(--rob);
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--g);
+}
+
+.c_pad{
+	padding-bottom: 100px;
+}
+/*Common End*/
+
+/*Header Start*/
+
+header{
+	padding: 30px 0;
+	background-color: var(--w);
+}
+
+.c_nav{}
+
+.logo{}
+
+.logo h1{
+	font-family: var(--lato);
+	font-size: 30px;
+	font-weight: 500;
+	color: var(--b);
+	text-transform: uppercase;
+}
+
+.menu{}
+
+.menu ul{}
+
+.menu ul li{}
+
+.menu ul li a {
+    padding: 0 30px 0 0 !important;
+    font-family: var(--lato);
+    font-size: 16px;
+    font-weight: 400 !important;
+    color: var(--g);
+}
+
+.menu ul li a:hover{
+	font-weight: 700 !important;
+	color: var(--b);
+}
+
+.c_btn{
+	border: none;
+	background: transparent;
+}
+
+.c_btn i{
+	font-size: 16px;
+	color: var(--g);
+}
+
+.c_btn i:hover{
+	color: var(--b);
+}
+
+.cm_h{}
+
+.cm_h h1{}
+
+.cm_sb{
+	background-color: var(--b);
+	color: var(--w);
+}
+
+.cm_sb:hover{
+	background-color: var(--b);
+	color: var(--w);
+}
+
+.cm_cb{}
+
+.c_card{
+	border: none;
+}
+
+/*Header End*/
+
+/*Slider Start*/
+.slider{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
+.c_indi {
+    left: -390px;
+    bottom: -20px;
+}
+
+.c_indi [data-bs-target] {
+	width: 2px;
+	height: 15px;
+    background-color: var(--b);
+}
+
+.s_text{
+	margin: 200px 0;
+}
+
+.s_h2{
+	font-family: var(--lato);
+	font-size: 59px;
+	font-weight: 700;
+	color: var(--w);
+}
+
+.s_p{
+	margin: 50px 0;
+	line-height: 30px;
+	color: var(--w);
+}
+
+.s_btn{
+	padding: 15px 30px;
+	font-weight: 500;
+	border-radius: 0;
+	background-color: var(--w);
+}
+
+.s_btn:hover{
+	color: var(--w);
+	background-color: var(--b);
+}
+
+.arrow{
+	font-size: 16px;
+	color: var(--b);
+	margin-left: 25px;
+}
+
+.s_btn:hover .arrow i{
+	color: var(--w);
+}
+.prv{
+	margin-right: 40px;
+	background-color: transparent;
+	border: none;
+	text-transform: uppercase;
+	color: var(--g);
+}
+.nxt{
+	background-color: transparent;
+	border: none;
+	text-transform: uppercase;
+	color: var(--g);
+}
+
+.prv:hover, .nxt:hover{
+	color: var(--b);
+	transform: scale(.97);
+}
+.c_slide {
+    bottom: -5px;
+    left: 60px;
+    justify-content: left;
+
+}
+.c_slide [data-bs-target] {
+    width: 2px;
+    height: 16px;
+    background-color: var(--b);
+
+}
+/*Slider End*/
+
+/*Nipro Start*/
+
+.nipro{
+	padding-top: 100px;
+}
+
+.n_text{}
+
+.c_h1{
+	font-family: var(--lato);
+	font-size: 30px;
+	font-weight: 400;
+	color: var(--b) !important;
+	text-transform: uppercase;
+}
+
+.n_p{
+	margin: 50px 0 0;
+	line-height: 30px;
+}
+
+/*Nipro Start*/
+
+/*Feature Start*/
+
+.feature{}
+
+.f_item{
+	margin-top: 60px;
+	padding: 65px 20px 40px 20px;
+	border: 1px solid var(--g);
+/*	position: relative;*/
+}
+
+
+.f_icon {
+	width: 65px;
+	margin: -92px auto 0;
+    background-color: var(--w);
+}
+.f_icon i{
+	font-size: 50px;
+	color: var(--g);
+}
+
+.c_h2{
+	font-family: var(--lato);
+	font-size: 18px;
+	font-weight: 700;
+	color: var(--b);
+	text-transform: uppercase;
+}
+
+.arrowright{
+	font-size: 16px;
+	color: var(--g);
+	margin-left: 25px;
+}
+
+.line{
+	margin: 20px 0;
+	border-bottom: 1px solid var(--g);
+	width: 50px;
+}
+
+.f_item p{
+	margin-bottom: 40px;
+	line-height: 26px;
+}
+
+.f_a{
+	text-decoration: none;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: var(--g) !important;
+}
+
+.f_a span i{
+	margin-left: 20px;
+	color: var(--g);
+}
+
+.f_item:hover {
+	border: 1px solid var(--b);
+}
+
+.f_item:hover .f_icon i{
+	color: var(--b) !important;
+}
+
+.f_item:hover .f_a i{
+	color: var(--b) !important;
+}
+
+.f_item:hover .f_a{
+	color: var(--b) !important;
+}
+/*Feature End*/
+
+/*About Us Start*/
+.about{}
+
+.ab_img {
+    margin-top: 8px;
+}
+
+.about_text{
+	margin-left: 50px;
+}
+
+.about_text p{
+	margin: 30px 0 35px;
+	line-height: 27px;
+}
+
+.ab_btn{
+	border: 1px solid var(--b);
+}
+.ab_btn:hover .arrow{
+	color: var(--w);
+}
+/*About Us End*/
+
+/*Portfolio Start*/
+
+.portfo{
+	background-color: #f8f8f8;
+}
+
+.p_item{}
+
+.p_h1{
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+
+.p_ul{
+	 --bs-nav-link-color: var(--b);
+    --bs-nav-link-hover-color: var(--b);
+}
+
+.p_ul li:not(:last-child) {
+    margin-right: 6px;
+}
+
+.p_ul li button:hover{
+	padding: 12px 12px;
+	border: 1px solid var(--b);
+	font-weight: 500;
+	color: var(--b);
+}
+
+.p_ul li button{
+	text-decoration: none;
+	padding: 12px 12px;
+	border: 1px solid transparent;
+	color: var(--g);
+}
+
+.sport_item{
+	margin-top: 40px;
+	position: relative;
+/*	width: 100%;*/
+}
+
+.sport_item:hover{
+	width: 100%;
+	height: 300px;
+}
+
+.sport_item:hover .img1{
+	height: 300px;
+}
+
+.overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 100%;
+	height: 300px;
+	opacity: 0;
+	background-color: black;
+	transition: .46s;
+}
+
+.overlay:hover{
+	opacity: .8;
+}
+
+.overlay h1{
+	position: absolute;
+	margin: 0;
+	font-family: var(--lato);
+	font-size: 18px;
+	font-weight: 700;
+	color: var(--b) !important;
+	transform: translate(-50%, -50%);
+	top: 320px;
+	left: 47px;
+	text-align: center;
+}
+
+.overlay p{
+	position: absolute;
+	margin: 0;
+	font-family: var(--lato);
+	font-size: 16px;
+	font-weight: 400;
+	color: var(--g);
+	transform: translate(-50%, -50%);
+	top: 355px;
+	left: 38px;
+	text-align: center;
+}
+.overlay i{
+	position: absolute;
+	margin: 0;
+	font-size: 40px;
+	color: var(--w);
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	cursor: pointer;
+}
+
+/*Portfolio End*/
+
+/*Why Choose Nipro Start*/
+
+.choose{}
+
+.ch_text{}
+
+.ch_h1{
+	margin-top: 80px;
+	margin-bottom: 60px;
+}
+
+.ch_pad{
+	padding: 0 25px;
+}
+
+.ch_icon{
+	margin-top: 40px;
+}
+
+.ch_ic{
+	font-size: 40px;
+}
+.ch_htext{
+	margin-top: 40px;
+}
+
+.ch_h2{
+	margin-left: 16px;
+	color: var(--g);
+}
+
+.ch_sp p{
+	margin-top: 16px;
+	margin-bottom: 35px !important;
+}
+
+.c_border{
+	border-bottom: 1px solid var(--g);
+}
+
+.c_watch{
+	rotate: 34deg;
+}
+
+.c_mini{
+	rotate: -35deg;
+}
+.ch_item:hover .ch_h2{
+	color: var(--b);
+}
+
+.ch_item:hover .ch_icon{
+	color: var(--b);
+}
+
+.ch_item:hover .c_border{
+	border: 1px solid var(--b);
+}
+/*Why Choose Nipro End*/
+
+/*work with us Start*/
+
+.work_us{
+	background-image: url(../images/w_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.w_text{}
+
+.w_h1{
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+.w_single{
+	position: relative;
+	margin-top: 40px;
+	background-color: var(--w);
+}
+
+.w_h2{
+	padding: 18px 20px 6px 30px;
+}
+.w_p{
+	padding: 6px 20px 18px 30px;
+}
+
+.workus_media{
+	position: absolute;
+	background-color: var(--w);
+	margin: -321px auto 0;
+	opacity: 0;
+}
+
+.w_single:hover .workus_media{
+	opacity: 1;
+}
+
+.wu_a :hover{
+	background-color: #f8f8f8;
+	border-right: 2px solid var(--b);
+	color: var(--b);
+}
+
+.wu_icon{
+    padding: 10px 10px;
+    margin: 2px 0;
+	font-size: 25px;
+	color: var(--g);
+}
+
+.wu_icon:hover{
+	padding: 10px 9px;
+}
+
+.wu_a{
+	text-align: center;
+	text-decoration: none;
+}
+
+/*work with us End*/
+
+/*Best Pricing Start */
+
+.best_pricing{}
+
+.bp_text{}
+
+.bp_h1{}
+
+.bp_item{
+	margin-top: 40px;
+	padding: 40px 30px;
+	border: 1px solid var(--g);
+	position: relative;
+}
+
+.bp_item:hover{
+	border: 1px solid var(--b);
+}
+
+.bp_title{
+	position: absolute;
+	left: 25px;
+    top: -11px;
+    padding: 0 7px;
+    font-size: 18px;
+    color: var(--b);
+    text-transform: uppercase;
+    background-color: var(--w);
+}
+
+.bp_h2{
+	font-family: var(--lato);
+	font-size: 36px;
+	font-weight: 400;
+	color: var(--b);
+	text-transform: uppercase;
+}
+
+.bp_h2 span{
+	font-size: 16px;
+	color: var(--g);
+	text-transform: none;
+}
+
+.bp_item p{
+	margin: 40px 0;
+	font-size: 16px;
+	line-height: 38px;
+}
+
+.bp_arrow{
+	font-size: 16px;
+	color: var(--g);
+	margin-left: 25px;
+}
+
+.bps_btn{
+	padding: 10px 30px;
+	border: 1px solid var(--g);
+	border-radius: 0;
+}
+
+.bp_item:hover .bps_btn{
+	color: var(--b) !important;
+	border: 1px solid var(--b);
+	background-color: #f8f8f8;
+}
+
+.bp_item:hover .bp_arrow{
+	color: var(--b);
+}
+
+.bp_item a{
+	
+	font-size: 16px;
+	font-weight: 500;
+	color: var(--g) !important;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+/*Best Pricing End */
+
+/*Call Of Action Start*/
+
+.coa{
+	margin-bottom: 100px;
+	padding: 25px 0;
+	background-color: #f8f8f8;
+}
+.coa_text{}
+.coa_p{
+	color: var(--b);
+	font-size: 18px;
+}
+.coa_button{}
+.coa_btn{
+	padding: 13px 40px;
+	font-family: var(--rob);
+	font-weight: 500;
+	color: var(--g);
+	background-color: transparent;
+	border: 1px solid var(--g);
+	border-radius: 0;
+}
+
+.coa_btn span i{
+	color: var(--g);
+}
+
+.coa_btn:hover{
+	color: var(--b);
+	border: 1px solid var(--b);
+}
+
+.coa_btn:hover .arrow i{
+	color: var(--b);
+}
+
+/*Call Of Action End*/
+
+/*Personal Info Start*/
+
+.personal_info{}
+
+.pi_border{
+	padding: 40px 25px;
+	border: 1px solid var(--g);
+}
+
+.pi_indi{}
+
+.pi_img{
+	margin-top: 5px;
+}
+
+.pi_img img{}
+
+.pi_text{}
+
+.pi_name{}
+
+.pi_desig{
+	margin-top: 8px;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+
+.pi_co{
+	font-size: 18px;
+	font-weight: 400;
+	color: var(--b);
+}
+
+.pi_para{
+	margin-top: 25px;
+	line-height: 27px;
+}
+
+.box{
+	text-align: center;
+	padding: 32px 0;
+	background-color: #f8f8f8;
+	border: 1px solid var(--g);
+}
+
+.prev{
+	margin: 35px 0 100px 0;
+	margin-right: 0;
+	font-size: 16px;
+	font-weight: 500;
+	rotate: 90deg;
+}
+ .next{
+ 	margin: 100px 0 35px 0;
+ 	font-size: 16px;
+ 	font-weight: 500;
+ 	rotate: 90deg;
+}
+
+
+/*.pi_indi{
+    rotate: 90deg;
+    right: -961px;
+    bottom: 110px;
+}
+
+.pi_indi [data-bs-target] {
+    width: 2px;
+    height: 15px;
+    background-color: var(--b);
+}*/
+/*Personal Info End*/
+
+/*Contact Us Start*/
+
+.contact{}
+
+.contact_item{
+	padding: 60px 0;
+	border: 1px solid var(--g);
+}
+
+.contact_h1{
+	position: relative;
+}
+
+.cu_h1{
+	position: absolute;
+	top: -17px;
+	padding: 0 15px;
+	background-color: var(--w);
+/*	margin-bottom: 100px;*/
+}
+
+.c_form{}
+
+.c_legend{}
+
+.c_input{
+	padding: 12px 30px;
+	border: none;
+	border-bottom: 1px solid var(--g);
+	border-radius: 0;
+}
+
+.c_input:hover{
+	border-bottom: 2px solid var(--b);
+}
+
+.c_messege{
+	padding-top: 80px;
+}
+
+.form_btn{
+	margin-top: 40px;
+	padding: 15px 40px;
+	font-weight: 500;
+	border: 1px solid var(--b);
+	border-radius: 0;
+	text-transform: uppercase;
+}
+
+.form_btn:hover{
+	background-color: var(--b);
+	color: white;
+}
+
+.form_btn:hover .arrow i{
+	color: white;
+}
+
+/*Contact Us End*/
+
+/*Footer Start*/
+
+footer{
+	position: relative;
+	background-image: url(../images/f_bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.footer_top{
+	position: relative;
+	padding-top: 40px;
+	padding-bottom: 90px;
+}
+
+.footer_top h1{}
+
+.footer_top p{
+	margin: 40px 0;
+	line-height: 28px;
+	color: var(--w);
+}
+
+.sulli:not(:last-child) {
+    margin-right: 16px;
+}
+
+.foot_icon{
+	width: 50px;
+	height: 50px;
+    border: 1px solid var(--w);
+}
+
+.foot_icon:hover{
+	background-color: var(--w);
+}
+
+.foot_icon:hover i{
+	color: var(--b);
+}
+
+.foot_icon i{
+	padding-top: 11px;
+	font-size: 26px;
+	color: var(--w);
+}
+
+.fb_right{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.fb_left{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.fbulli:not(:last-child) {
+    margin-right: 40px;
+}
+.fbulli:hover{
+	transform: scale(.95);
+}
+
+.fc_border{
+	position: absolute;
+	bottom: 104px;
+	border-bottom: 1px solid var(--w);
+}
+
+.go_top_a {
+    position: absolute;
+    top: 80%;
+    right: -52.5%;
+}
+.go_top_a i{
+	font-size: 40px;
+	color: #f8f8f8;
+}
+
+.go_top_a:hover{
+	transform: scale(.9) !important;
+}
+/*Footer End*/

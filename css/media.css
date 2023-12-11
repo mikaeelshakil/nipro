@@ -1,0 +1,685 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*	Header Start*/
+    header{
+    padding: 26px 0;
+}
+.logo h1 {
+    font-size: 25px;
+}
+.menu ul li a {
+    padding: 18px 0 0 0 !important;
+}
+.c_btn {
+    padding: 12spx 0;
+}
+/*Slider Start?*/
+.s_text{
+    margin: 90px 0;
+}
+.c_indi {
+    left: -150px;
+}
+.s_text{
+    text-align: center;
+}
+.s_h2 {
+    font-size: 27px;
+}
+.s_p {
+    font-size: 15px;
+    margin: 25px 0 35px 0;
+}
+/*Welcome Nipro Start*/
+.nipro{
+    padding-top: 60px;
+}
+.c_pad {
+    padding-bottom: 50px;
+}
+.n_h1 {
+    font-size: 27px;
+}
+.n_p {
+    margin: 40px 0 0;
+}
+/*Feature Start*/
+.f_item {
+    margin: 60px 20px 0;
+    padding: 55px 17px 30px 17px;
+}
+
+.f_item p{
+    margin-bottom: 30px;
+}
+/*About Us Start*/
+.about_img{
+    margin-bottom: 30px;
+}
+
+.about_text {
+    text-align: center;
+    margin-left: 0;
+}
+
+/*Portfolio Start*/
+.p_h1 {
+    margin-top: 45px;
+    margin-bottom: 38px;
+}
+.sport_item{
+    margin-bottom: 40px;
+}
+.sport_item:hover{
+    text-align: center;
+    height: 250px;
+}
+
+.sport_item:hover .img1{
+    height: 250px;
+}
+.overlay{
+    height: 250px;
+}
+.overlay h1{
+    bottom: -75%;
+    left: 50%;
+}
+.overlay p{
+    bottom: -100%;
+    left: 50%;
+}
+/*Why Choose Nipro Start*/
+.c_h1 {
+    font-size: 27px;
+}
+.ch_h1 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.ch_htext {
+    margin-top: 5px;
+}
+.ch_h2{
+/*    margin-left: 0;*/
+}
+.ch_pad{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.c_border{
+    margin: 0 auto;
+    width: 99%;
+}
+.ch_sp p{
+    margin-top: 13px;
+    margin-bottom: 27px !important;
+}
+/*Work with US Start*/
+.workus_media {
+    margin: -340px auto 0;
+}
+/*Best Pricing Start*/
+.bp_item {
+    margin: 40px 20px 0 20px;
+    padding: 40px 38px;
+}
+/*Call Of action Start*/
+.coa_p{
+    font-size: 17px;
+}
+.coa_btn {
+    padding: 9px 25px;
+}
+.coa_text{
+    margin-bottom: 20px;
+    text-align: center !important;
+}
+.coa_button{
+    text-align: center !important;
+}
+/**Personal Info Start**/
+.pi_border {
+    padding: 25px 25px;
+}
+.pi_img {
+    padding: 0 20px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.pi_text{
+    text-align: center;
+}
+.prev{
+    rotate: 360deg;
+    margin: 0 80px 0 0;
+}
+ .next{
+    rotate: 360deg;
+    margin: 0 0 0 80px;
+}
+.box {
+    margin-top: 8px;
+    padding: 6px 0;
+}
+/*Contact Us Start*/
+.cu_h1 {
+  font-size: 25px;
+}
+.contact_item {
+    padding: 40px 0;
+}
+.c_input {
+padding: 12px 0;
+}
+.c_messege {
+    padding-top: 70px;
+}
+.form_btn {
+    margin-top: 30px;
+    padding: 12px 30px;
+}
+/*Footer Start*/
+.footer_top {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer_top p {
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.fbulli:not(:last-child) {
+    margin-right: 20px;
+}
+.smedia ul{
+    padding: 0 30px;
+}
+.sulli{
+    margin-top: 20px;
+}
+.sulli:nth-child(4) {
+    margin-right: 0;
+}
+.foot_icon{
+    width: 36px;
+    height: 36px;
+}
+.foot_icon i{
+    padding-top: 8px;
+    font-size: 18px;
+
+}
+.fb_right{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+.fb_left{
+     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.fb_left p{
+    font-size: 15px;
+}
+.fc_border {
+    bottom: 120px;
+}
+.go_top_a {
+    top: 107%;
+    right: -7%;
+}
+.go_top_a i {
+    font-size: 30px;
+}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/*	Header Start*/
+.menu ul li a {
+    padding: 20px 0 0 0 !important;
+}
+.c_btn {
+    padding: 14px 0;
+}
+/*Slider Start?*/
+.s_text{
+    margin: 100px 0;
+}
+.c_indi {
+    left: -280px;
+}
+
+.s_h2 {
+    font-size: 39px;
+}
+.s_p {
+    padding-right: 30px;
+    font-size: 15px;
+    margin: 25px 0 35px 0;
+    line-height: 28px;
+}
+/*Welcome Nipro Start*/
+.nipro{
+    padding-top: 70px;
+}
+.c_pad {
+    padding-bottom: 50px;
+}
+.n_p {
+    margin: 40px 0 0;
+}
+/*About US**/
+.about_text {
+     margin-left: 0; 
+}
+/*Feature Start**/
+.f_item {
+    padding: 55px 17px 30px 17px;
+}
+
+.f_item p{
+    margin-bottom: 30px;
+}
+/*About Us Start*/
+.about_img{
+    padding: 0 110px;
+}
+.about_text {
+    text-align: center;
+    padding: 50px 60px 0 60px;
+}
+/*Portfolio Start*/
+.p_h1 {
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.sport_item{
+    margin-bottom: 10px;
+}
+.sport_item:hover{
+    text-align: center;
+    height: 200px;
+}
+
+.sport_item:hover .img1{
+    height: 200px;
+}
+.overlay{
+    height: 200px;
+}
+.overlay h1{
+    top: 225px;
+    left: 49px;
+}
+.overlay p{
+    top: 250px;
+    left: 39px;
+}
+/*Why Choose Nipro Start*/
+.c_h1 {
+    font-size: 28px;
+}
+.ch_h1 {
+    margin-bottom: 30px;
+}
+.ch_icon{
+    margin-left: 65px;
+/*    text-align: right;*/
+}
+.ch_h2{
+    margin-left: 0;
+}
+.ch_pad{
+    margin: 0 auto;
+    text-align: center;
+}
+.c_border{
+    margin: 0 auto;
+    width: 91%;
+}
+.ch_sp p{
+    margin-top: 13px;
+    margin-bottom: 27px !important;
+}
+/*Work with US Start*/
+.workus_media {
+    margin: -312px auto 0;
+}
+
+/*Call Of action Start*/
+.coa_p{
+    font-size: 16px;
+}
+.coa_btn {
+    padding: 9px 25px;
+}
+/*Personal Info Start*/
+.pi_border {
+    padding: 28px 25px;
+}
+.pi_img {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.prev{
+    rotate: 360deg;
+    margin: 0 160px 0 0;
+}
+ .next{
+    rotate: 360deg;
+    margin: 0 0 0 160px;
+}
+.box {
+    margin-top: 10px;
+    padding: 8px 0;
+}
+.pad{
+    padding: 0;
+}
+/*Contact Us Start*/
+.cu_h1 {
+  font-size: 27px;
+}
+.contact_item {
+    padding: 50px 0;
+}
+/*Footer Start*/
+.footer_top {
+    padding-bottom: 40px;
+}
+.footer_top p {
+    padding: 0 30px;
+}
+.fbulli:not(:last-child) {
+    margin-right: 20px;
+}
+.fb_right{
+    text-align: center;
+    padding-bottom: 32px;
+}
+.fb_left{
+    text-align: center;
+}
+.fb_right{
+    padding-top: 7px;
+    padding-bottom: 33px;
+}
+
+.fb_left{
+    padding-top: 33px;
+    padding-bottom: 7px;
+}
+.fc_border {
+    bottom: 128px;
+}
+.go_top_a {
+    top: 107%;
+    right: -7%;
+}
+.go_top_a i {
+    font-size: 30px;
+}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*	Header Start*/
+.menu ul li a {
+    padding: 20px 0 0 0 !important;
+}
+.c_btn {
+    padding: 14px 0;
+}
+/*Slider Start*/
+.s_text{
+    margin: 110px 0;
+}
+.c_indi {
+    left: -370px;
+}
+.s_h2 {
+    font-size: 48px;
+}
+/*Welcome Nipro Start*/
+.nipro{
+    padding-top: 80px;
+}
+.c_pad {
+    padding-bottom: 70px;
+}
+/*Feature Start**/
+.f_item {
+    padding: 65px 17px 40px 17px;
+}
+
+.f_item p{
+    margin-bottom: 35px;
+}
+/*About Us Start*/
+.about_img{
+    padding: 0 110px;
+}
+.about_text {
+    text-align: center;
+    padding: 50px 60px 0 60px;
+}
+/*Portfolio Start*/
+.p_h1 {
+    margin-top: 65px;
+    margin-bottom: 75px;
+}
+.overlay h1{
+    left: 49px;
+}
+.overlay p{
+    top: 350px;
+    left: 40px;
+}
+/*Why Choose Nipro Start*/
+.ch_h1 {
+    margin-bottom: 30px;
+}
+.ch_icon{
+    text-align: right;
+}
+.ch_h2{
+    margin-left: 13px;
+}
+.ch_pad{
+    text-align: center;
+}
+.c_border{
+    margin: 0 auto;
+    width: 87%;
+}
+/*Best Pricing Start*/
+.bp_item {
+    padding: 40px 48px;
+}
+/*Personal Info Start*/
+.pi_border {
+    padding: 28px 25px;
+}
+.pi_img {
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+.prev{
+    rotate: 360deg;
+    margin: 0 230px 0 0;
+}
+ .next{
+    rotate: 360deg;
+    margin: 0 0 0 230px;
+}
+.box {
+    margin-top: 10px;
+    padding: 10px 0;
+}
+.pad{
+    padding: 0;
+}
+/*Footer Start*/
+.footer_top {
+    padding-bottom: 45px;
+}
+.footer_top p {
+    margin: 35px 0;
+    padding: 0 30px;
+}
+.fbulli:not(:last-child) {
+    margin-right: 20px;
+}
+.fb_right ul li a{
+    font-size: 15px;
+}
+.go_top_a {
+    right: -26.5%;
+}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*    Header Start*/
+.menu ul li a {
+    padding: 0 22px 0 0 !important;
+}
+/*    Slider Start*/
+.s_h2 {
+    font-size: 57px;
+}
+.s_p {
+    padding-right: 70px;s
+}
+/*Portfolio Start*/
+.overlay{
+    height: 250px;
+}
+.sport_item:hover{
+    height: 250px;
+}
+.overlay{
+    height: 250px;
+}
+.sport_item:hover .img1{
+    height: 250px;
+}
+.overlay h1{
+    top: 275px;
+}
+
+.overlay p{
+    top: 305px;
+}
+/*Work with US Start*/
+.workus_media {
+    margin: -298px auto 0;
+}
+/*Best Pricing Start*/
+.bp_item {
+    padding: 40px 24px;
+}
+.bp_title {
+    left: 20px;
+}
+.bp_h2 {
+    font-size: 29px;
+}
+.bp_item p {
+    font-size: 15px;
+}
+.bps_btn {
+    padding: 10px 26px;
+}
+/*Footer Start*/
+.footer_top {
+    padding-bottom: 63px;
+}
+.footer_top p {
+    padding: 0 30px;
+}
+}
+
+/*Extra Large devices (desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+/*    SLider Start*/
+.s_text{
+    margin: 155px 0;
+}
+.c_indi {
+    left: -495px;
+}
+/*    Feature Start*/
+.f_item {
+    padding: 65px 15px 40px 15px;
+}
+
+/*Why Choose Nipro Start*/
+.c_border{
+    width: 99%;
+}
+/*Best Pricing Start*/
+.bp_item {
+    padding: 40px 40px;
+}
+/*Personal Info Start*/
+
+.box {
+    text-align: center;
+    padding: 19px 0px;
+}
+/*Footer Start*/
+.footer_top {
+    padding-bottom: 63px;
+}
+.footer_top p {
+    padding: 0 80px;
+}
+}
+
+/*Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+/*    Slider Start*/
+.c_indi {
+    left: -600px;
+}
+/*    Feature Start*/
+.f_item {
+    padding: 65px 15px 40px 15px;
+}
+.f_icon {
+    left: 122px;
+}
+/*Why Choose Nipro Start*/
+.c_border{
+    width: 93%;
+}
+/*Work with US Start*/
+.workus_media {
+    margin: -345px auto 0;
+}
+/*Best Pricing Start*/
+.bp_item {
+    padding: 40px 55px;
+}
+.bps_btn {
+    padding: 13px 30px;
+}
+/*Personal Info Start*/
+.box {
+    text-align: center;
+    padding: 36px 0px;
+}
+/*Footer Start*/
+.footer_top {
+    padding-bottom: 63px;
+}
+.footer_top p {
+    padding: 0 120px;
+}
+}
